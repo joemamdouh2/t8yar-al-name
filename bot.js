@@ -20,17 +20,14 @@ client.on('message', message => {
 
         }else{
             setInterval(function(){
-                message.channel.setName("J");
-                message.channel.setName("jo");
-                message.channel.setName("jok");
-                message.channel.setName("joke");
-                message.channel.setName("Joker");
-                message.channel.setName("Joker");
-                message.channel.setName("Joker ");
-                message.channel.setName("Joker S");
-                message.channel.setName("Joker Sh");
-                message.channel.setName("Joker Sho");
-                message.channel.setName("Joker Shop");
+                message.channel.setName("G");
+                message.channel.setName("GR");
+                message.channel.setName("GR G");
+                message.channel.setName("GR GA");
+                message.channel.setName("GR GAM");
+                message.channel.setName("GR GAME");
+                message.channel.setName("GR GAMER");
+                message.channel.setName("GR GAMERS");
             },1000);
 
 
