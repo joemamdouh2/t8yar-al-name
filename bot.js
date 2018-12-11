@@ -3,12 +3,12 @@ var prefix = '%';
 const client = new Discord.Client();
 
 client.on('ready', () => {
-  client.user.setGame(`Joker | Shop`,'https://www.twitch.tv/jokershop');
-  console.log(' Joker Shop Bot Is Online')
+  client.user.setGame(`By 𝒮ℋ𝒜𝒟𝒪𝒲 | Shop`,'https://www.twitch.tv/𝒮ℋ𝒜𝒟𝒪𝒲');
+  console.log(' 𝒮ℋ𝒜𝒟𝒪𝒲 Bot Is Online')
 });
 
 client.on('message', message => {
-    if(message.content.startsWith(prefix + "joker")){
+    if(message.content.startsWith(prefix + "start")){
         if(!message.member.hasPermission("ADMINISTRATOR")){
 
             let embedaa = new Discord.RichEmbed()
@@ -20,14 +20,15 @@ client.on('message', message => {
 
         }else{
             setInterval(function(){
-                message.channel.setName("G");
-                message.channel.setName("GR");
-                message.channel.setName("GR G");
-                message.channel.setName("GR GA");
-                message.channel.setName("GR GAM");
-                message.channel.setName("GR GAME");
-                message.channel.setName("GR GAMER");
-                message.channel.setName("GR GAMERS");
+                message.channel.setName("p̲");
+                message.channel.setName("p̲r̲");
+                message.channel.setName("p̲r̲o̲");
+                message.channel.setName("p̲r̲o̲ ");
+                message.channel.setName("p̲r̲o̲ g̲");
+                message.channel.setName("p̲r̲o̲ g̲a̲");
+                message.channel.setName("p̲r̲o̲ g̲a̲m̲");
+                message.channel.setName("p̲r̲o̲ g̲a̲m̲e̲");
+                message.channel.setName("p̲r̲o̲ g̲a̲m̲e̲r̲");
             },1000);
 
 
