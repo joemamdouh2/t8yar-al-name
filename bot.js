@@ -3,8 +3,8 @@ var prefix = '%';
 const client = new Discord.Client();
 
 client.on('ready', () => {
-  client.user.setGame(`By 𝒮ℋ𝒜𝒟𝒪𝒲 | Shop`,'https://www.twitch.tv/𝒮ℋ𝒜𝒟𝒪𝒲');
-  console.log(' 𝒮ℋ𝒜𝒟𝒪𝒲 Bot Is Online')
+  client.user.setGame(`By 𝒮ofa | Shop`,'https://www.twitch.tv/𝒮ofa');
+  console.log(' 𝒮ofa Bot Is Online')
 });
 
 client.on('message', message => {
